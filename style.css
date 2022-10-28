@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2? family= Lobster+Two:wght@700 & display=swap');
+
+
+
+
+body{
+    font-family: 'Lobster Two', cursiva;
+    font-weight: 700;
+    font-size: 20px;
+    margin: auto;
+    display: block;
+   
+   
+}
+table{
+    margin: auto;
+   
+    width: 440px;
+    border-collapse: collapse;
+}
+td, th{
+ 
+    border: 1px solid black;
+    padding: 5px;   
+}
+thead > tr > th{
+    top: -1px;
+    background-color: rgb(247, 219, 6);
+}
+.posicao{
+    text-align: center;
+    width: 10px;
+}
+.pontos{
+    width: 10px;
+}
+
+caption{
+
+    font-size: 1.5em;
+    font-weight: bolder;
+    padding: 10px;
+    background-color: rgb(14, 147, 7);
+}
+tbody>tr:nth-child(2n) {
+    background-color: rgba(0, 153, 255, 0.54);
+
+}
+.logo{
+    margin: auto;
+    display: block;
+}
